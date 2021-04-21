@@ -1,0 +1,308 @@
+/*font face*/
+
+/*Fonts Start*/
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Black.otf);
+	font-family: PlayfairDisplay-Black;
+}
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+	font-family: PlayfairDisplay-Bold;
+}
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Italic.otf);
+	font-family: PlayfairDisplay-Italic;
+}
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+	font-family: PlayfairDisplay-Regular;
+}
+@font-face{
+	src: url(../fonts/ubuntu/Ubuntu-L.ttf);
+	font-family: Ubuntu-L;
+}
+@font-face{
+	src: url(../fonts/Inconsolata/Inconsolata.otf);
+	font-family: Inconsolata;
+}
+/*Fonts End*/
+
+/*font-family: 'Inconsolata', monospace;
+font-family: 'Ubuntu', sans-serif;*/
+/*common start*/
+body{
+	margin: 0;/*no use when we go for bootstrap*/
+	padding: 0;/*no use when we go for bootstrap*/
+	font-family: 'Playfair_Display', serif; /* most used fonts in psd*/
+	font-size: 16px;/* paragraph common fot size*/
+	font-weight: 400px; 
+	color:#626262;/*most used color in paragraph-Ash*/
+
+}
+/*common ccode end*/
+/*wrapper css start*/
+header{
+	
+	padding: 20px 0px;
+}
+.container{
+	margin: 0 auto; 
+	width: 90%;
+    overflow: hidden;
+}
+.logo{
+	width: 13%;
+	float: left;
+
+	margin-top: 4px;
+
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{}
+.menu ul{
+	width: 60%;
+	float: right;
+	
+
+}
+.menu ul li{
+	list-style: none;
+	text-decoration: none;
+}
+.menu ul li a{
+	float: right;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 60px;
+	display: inline-block;
+	color:#626262;/*it create some issue so need to write color*/
+	padding-right: 0px;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+
+.menu ul li a:hover {
+	color: #121212;
+	transition: .3s;
+}
+
+/*wrapper css start*/
+/*banner start*/
+.banner{
+	background: url('../image/banner.jpg');
+	background-size: cover;
+	min-height: 550px;
+}
+/*banner end*/
+/* photodiary start */
+.wrapper{
+	width: 71%;
+	margin: 0 auto;
+	overflow: hidden;
+	/* border: 1px solid red; */
+}
+.photodairy{
+	padding: 80px 0px;
+	/* border: 1px solid red; */
+}
+.p1{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.heading{
+	margin: 20px 0;
+	font-size: 30px;
+
+}
+.p2{
+	margin: 25px 0 50px;
+	font-family: 'playfair-display', serif;
+
+  
+ 
+}
+/* photodiary end */
+/* lifestyle start */
+
+.lifestyle{
+
+}
+.single{
+	width: 47%;
+	margin: 0% 3% 50px;
+	float: left;
+}
+.single_1{
+	margin-left: 0%;
+}
+.single_2{
+	margin-right: 0%;
+}
+
+
+.single img{
+	width: 100%;
+	margin-bottom: 33px;
+}
+
+/* lifestyle end */
+
+/*Newsletter Start*/
+.newsletter{
+	background-color: #f0f0f0;
+	padding: 75px 0;
+}
+.newsletter_content{
+	text-align: center;
+}
+.title2{
+	margin: 0 0 70px;
+	color: #333333;
+}
+.n_form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.n_form input{
+	padding: 0 45px 0 5px;
+	width: 350px;
+	height: 40px;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #626262;
+}
+.n_form input:focus{
+	outline: 0;
+}
+.n_form button{
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+.n_form button:focus{
+	outline: 0;
+}
+
+/*Newsletter End*/
+
+/*Blog2 Start*/
+.blog{
+	padding: 100px 0;
+}
+.blog_content{
+	overflow: hidden;
+}
+
+
+.load{
+	margin: 80px 0;
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	font-family: PlayfairDisplay-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    border: 1px solid #626262;
+	background-color: transparent;
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+
+
+.c_light{
+	margin: 0;
+	font-family: Ubuntu-L;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_para{
+	margin: 0 0 50px;
+	line-height: 25px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;	
+}
+
+/*Blog2 End*/
+
+/*Footer Start*/
+footer{
+	padding: 30px 0;
+	background-color: #f0f0f0;
+}
+.f_left{
+	width: 22%;
+	float: left;
+}
+.f_left ul{
+	padding-left: 0;
+	float: left;
+}
+.f_left ul li{
+	list-style-type: none;
+	float: left;
+}
+.f_left ul li a{
+	padding: 0 10px;
+	display: inline-block;
+	font-size: 14px;
+    color: #000000;
+	text-decoration: none;    
+}
+.f_left ul li:first-child a{
+	padding-left: 0;
+}
+.f_right{
+	width: 16%;
+	float: right;
+}
+.f_right ul{
+	float: right;
+}
+.f_right ul li{
+	list-style-type: none;
+	float: left;
+}
+.f_right ul li a{
+	padding: 0 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+.f_right ul li:first-child{
+	padding-right: 20px;
+	font-size: 14px;
+    color: black;
+}
+.f_right ul li:last-child a{
+	padding-right: 0;
+}
+
+
